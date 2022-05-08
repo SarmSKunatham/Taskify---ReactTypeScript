@@ -34,7 +34,7 @@ const TodoList: React.FC<Props> = ({ todos, setTodos, completedTodos, setComplet
           </div>
         )}
       </Droppable>
-      <Droppable droppableId="TodoList">
+      <Droppable droppableId="TodosRemove">
         {(provided) => (
           <div
             className="todos remove"
