@@ -106,6 +106,18 @@
     background-color: rgb(235, 103, 80);
 }
 
+.dragactive {
+    background-color: rgba(48, 217, 217, 0.751);
+}
+
+.dragcomplete {
+    background-color: rgb(255, 107, 81);
+}
+
+.drag {
+    box-shadow: 0 0 20px black;
+}
+
 @media (max-width: 1200px){
     .todos__single {
         width: 85%;
